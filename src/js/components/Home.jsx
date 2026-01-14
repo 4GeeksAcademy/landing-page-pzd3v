@@ -73,7 +73,7 @@ const Card = () => {
 
 const Home = () => {
   return (
-    <div className="m-2">
+    <div>
       <div>
         <Navbar />
       </div>
@@ -86,6 +86,9 @@ const Home = () => {
         <Card />
         <Card />
       </div>
+      <footer className="display-6 p-2 bg-secondary text-center">
+        Copyright © Your Website 2019
+      </footer>
     </div>
   );
 };
